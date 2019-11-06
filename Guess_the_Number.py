@@ -2,35 +2,37 @@
 #When the user selects a number, the computer tells the user if the guess was "too high" or "too low"
 
 import random
+def isInputInvalid(r2):
+    if(r2>20 or 0>r2):
+        return True
+    else:
+        return False
 
 # generate a random number using the random module in python
-r1 = random.randint(-1, 21)
-
-#initialize i which is the number of tries
-i = 3
-
-# get the number from the user
-r2 = int(input("Make a guess:"))
+r1 = random.randint(0, 20)  # randint treats the arguments as inclusive
+i = 10
 
 #Start a loop for the user's three attempts at the game
-for i in range(1,i+1):
-# compare it with the number
-    if (r2 == r1):
-        print("Woohoo!! Correct!")
-        break
+for it in range(0,i):  #it = iterator
+    r2 = int(input("Make a guess: "))
+    if(isInputInvalid(r2)): 
+        if(it==(i-1)): print("Too many wrong guesses! The number was", r1)
+        else: 
+            print("Your input must be between 0 and 20, both inclusive")
+            continue
     else:
-        if(i != 3):
-            if(r2>r1):
-                print("Too high!")
-            else:
-                print("Too low!")
-        if (i == 1):
-            print("Uh-oh! That's not it. You have two more chances. Go again:", end='')
-            r2 = int(input())
-        elif (i == 2):
-            print("Last one now:", end='')
-            r2 = int(input())
+        if (r2 == r1):
+            print("Woohoo!! Correct!")
+            break
         else:
-            print("Too many wrong guesses! The number was", r1)
+            if(it>=0 and it<(i-1)):
+                if(r2>r1):
+                    print("Too high!")
+                else:
+                    print("Too low!")
+                print("You have", (i-it-1) , "more chances. ", end='')
+            else:
+                print("Too many wrong guesses! The number was", r1)
+        
 
-
+        
