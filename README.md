@@ -1,4 +1,4 @@
-First Python DIY project as suggested by https://github.com/sania-dsouza/Python_DIYProject_1.git
+First Python DIY project as suggested by https://www.codementor.io/ilyaas97/6-python-projects-for-beginners-yn3va03fs
 
 Completed:
 1) Guess the number: 11/05/2019
