@@ -7,8 +7,7 @@ import numpy as np
 Fs = 8000
 f = 5
 
-sample = 8000
-x = np.arange(0, sample, 1)
+x = np.arange(0, 3600 , 0.5)
 
 y = np.sin(2 * np.pi * f * x / Fs)
 y1 = np.cos(2 * np.pi * f * x / Fs)
