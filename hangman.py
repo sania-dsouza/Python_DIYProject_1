@@ -6,12 +6,12 @@ wordList = ["desk", "bed", "table", "chair", "cupboard"]
 
 # Let computer pick up random word out of the list
 word = random.choice(wordList)
-print(word)
 wordDisplay = "_ "*len(word)
 chances = len(word) # logic to get the number of chances available to the user  
-print(chances)
 
 print("Let's play Hangman!")
+print("*******************")
+print()
 print("The computer has chosen a word. Now, let's start")
 print(wordDisplay)
 print("What's your first letter?")
