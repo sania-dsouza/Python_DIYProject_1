@@ -1,7 +1,7 @@
 #Remove the duplicates of a list using two methods
 
 # Method 1: Convert list to set
-listA = [2,2, 3, 4,5, 4, 5, 6]
+listA = [2,2, 3, 4,5, 4, 5, 6, 100, 100, 0.2  ]
 setA = set(listA)
 listA = list(setA)
 print("Using sets:", listA)
