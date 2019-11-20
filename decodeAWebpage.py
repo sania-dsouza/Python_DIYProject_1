@@ -7,5 +7,8 @@ url = "https://www.nytimes.com/"
 r = requests.get(url)
 r_html = r.text
 
-soup = BeautifulSoup(r_html)
-print(list(title for title in soup.find('h2').text))
+soup = BeautifulSoup(r_html, 'html.parser')
+soup1 = soup.find_all('div', class_="css-1ez5fsm esl82me1")
+print([i.get_text() for i in soup1])
+
+
