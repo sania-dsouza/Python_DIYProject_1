@@ -1,0 +1,19 @@
+['Sondland, Defiant, Says He Followed Trump’s Orders', 'Officials Were
+ Told to Work With Giuliani to Pressure Kyiv', 'Key Moments From Wednesday’s Testimony',
+  'Secretary of State Mike Pompeo has emerged as a major enabler of Mr. Trump in the Ukraine affair.', 
+  'Analysis: In an Echo of Watergate, an Adviser Points to Trump', 'Mr. Sondland began his day looking strangely happy.
+   Things got less fun as the day wore on.', 'Live Updates as Democrats Clash on the Debate Stage', 
+   'We’re tracking how much speaking time each candidate gets.', 'Follow along with live analysis from our reporters.', 
+   'Americans Are Moving at the Lowest Rate on Record', 'G.M. Sues Rival Over Bribery Scheme as Union Scandal Expands',
+    'Prince Andrew Steps Down From Public Duties in Aftermath of Epstein Interview', 
+    'The Editorial BoardSondland Has Implicated the President and His Top Men', 
+    'Michelle GoldbergDonald Trump’s Gordon Problem', 'Gail CollinsShould Trump Tromp Rudy?', 
+    'Noah BookbinderGordon Sondland Leaves Us With No Other Option', 
+    'Daniel McCarthyTrump Is Doing Exactly What He Was Elected to Do', 
+    'Roger CohenVacillating Trump Supporter, Take Two', 
+    'Elle EkmanHere’s One Reason the U.S. Military Can’t Fix Its Own Equipment', 
+    'Farhad ManjooThe Next Decade Will Be Just as Bad', 
+    'Thomas B. EdsallThe Danger of Elizabeth Warren', 'Aisha HarrisChristmas Season Starts in November. Deal With It.',
+     'Why I Quit My Job Carrying Out Trump’s Immigration Policies', 'What Happened to the Stolen Gold Toilet?',
+      'Chinese Roast Duck, but Make It Turkey', 'Book Review: Seeing Margaret Thatcher Whole'
+]
