@@ -15,3 +15,5 @@ TTTGameBoard.displayGameBoard()
 #Gets the user input and saves it in a variable
 TTTGamePlacer.placeUserInput()
 
+print("********************************************************")
+
