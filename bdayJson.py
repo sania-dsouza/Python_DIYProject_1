@@ -3,9 +3,15 @@
 import birthdayDictionaries as disBday
 import json
 
-with open("bdayJson.json", "r") as f:
-    dictBday = json.load(f)
+def readJson():
+    with open("bdayJson.json", "r") as f:
+        dictBday = json.load(f)
+    return dictBday
 
-print(dictBday)
-disBday.displayBday(dictBday)
+#print(dictBday)
+#disBday.displayBday(dictBday)
+
+if __name__ == "__name__":
+    readJson()
+
 
